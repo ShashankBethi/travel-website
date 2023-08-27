@@ -1,0 +1,163 @@
+<head>
+    <section id="blog"></section>
+    <script language="javascript">
+        function capital()
+        {
+        var cunt=document.forms["frm1"].country.value;
+        var capital=" Please select any country";
+        if( cunt=="GOA")
+        {
+        capital="It's definitely possible to plan a trip to Goa for 5 days with a budget of 10000 INRHere are some tips that may help you.1. <b>Transportation:</b> Book your flights or trains well in advance to get the best deals. You can also consider taking a bus or a shared taxi to save money. Local transportation options in Goa include buses, taxis, and motorbikes. 2. Accommodation: Look for budget-friendly guesthouses or hostels in the area you want to stay. You can also consider staying in homestays or vacation rentals which can be cheaper than hotels.3. Food: Try local food joints or street food vendors which can be cheap and tasty. Also, you can look for restaurants that offer discounted lunch deals.4. Activities: There are many free or cheap things to do in Goa like visiting beaches, exploring forts and museums, or hiking in nature. If you want to go for water sports or other activities, try to book in advance for better deals.5. Shopping: Don't forget to bargain while shopping in the local markets. You can find good deals on souvenirs and handicrafts.Overall, with careful planning and budgeting,you can definitely have a memorable trip to Goa within your budget of 10000 INR.";
+        }
+        if( cunt=="MUMBAI")
+        {
+        capital="A 5-day trip to Mumbai for 25,000 INR can be quite affordable if you plan carefully. Here are some tips and recommendations to help you stay within your budget:1. Book your flights early: Flights to Mumbai can be expensive, especially during peak travel seasons. Booking your flights early can help you save money. Look for budget airlines or deals on travel websites.2. Choose budget accommodation: Mumbai has a range of budget-friendly accommodation options, from hostels to guesthouses. Look for options in areas like Colaba, Fort, or Bandra, which are well-connected to the city's attractions.3. Use public transportation: Mumbai has an extensive network of public transportation, including buses, trains, and taxis. Use these to get around the city instead of relying on private transportation, which can be expensive.4. Eat like a local: Mumbai is known for its street food, which is not only delicious but also affordable. Look for local food joints and try out dishes like vada pav, pav bhaji, and bhel puri.5. Plan your activities: There are many free and low-cost activities you can do in Mumbai, such as visiting the Gateway of India, Marine Drive, and Elephanta Caves. Plan your itinerary in advance to make the most of your time and budget.By following these tips, you can easily plan a 5-day trip to Mumbai for 25,000 INR or less.";
+        }
+        if( cunt=="KASHMIR")
+        {
+        capital="A trip to Kashmir for 5 days in 25000 can be challenging but doable. Here are some suggestions to help you plan your trip:1. Transportation: To save money, consider taking a train or bus to Srinagar, the capital city of Kashmir. It's a long journey, but it's the most affordable option. Alternatively, you can fly to Srinagar, but flights can be expensive.2. Accommodation: Look for budget hotels or guesthouses in Srinagar or nearby areas. You can find affordable options starting at around Rs. 1000 per night. Avoid staying in expensive houseboats on Dal Lake, as they can be costly3. Food: Kashmiri cuisine is delicious, and you can find affordable food options in local restaurants or street vendors. Plan to spend around Rs. 300-500 per day on meals.4. Sightseeing: There are several beautiful places to visit in Kashmir, such as the Mughal Gardens, Pahalgam, Gulmarg, and Sonamarg. Hire a taxi or shared cab to visit these places. Expect to pay around Rs. 3000-4000 per day for transportation.5. Miscellaneous expenses: Don't forget to budget for miscellaneous expenses like entry fees, shopping, and tips. Plan to spend around Rs. 1000-2000 for these expenses.Overall, if you plan carefully and stick to your budget, you can have a fantastic trip to Kashmir for five days within Rs. 25,000."
+        }
+        if( cunt=="KERALA")
+        {
+        capital="A trip to Kerala for 5 days in 15,000 INR (Indian Rupees) can be a bit challenging, but it is possible if you plan it carefully. Here's a suggested itinerary that you could consider........Day 1: Arrival in Kochi- Land in Kochi and check into a budget hotel or guesthouse (such as Zostel or Dream Catcher).- Visit Fort Kochi and take a walk around the Dutch Palace, St. Francis Church, and the Chinese Fishing Nets.- Enjoy a sunset at Marine Drive and try some local street food............Day 2: Munnar- Start early and take a bus or shared taxi to Munnar (approximately 4 hours journey).- Visit the tea plantations and take a guided tour to learn about the tea-making process.- Visit the Mattupetty Dam and take a boat ride.- Stay overnight in a budget hotel or guesthouse in Munnar...................Day 3: Alleppey- Take a bus or shared taxi to Alleppey (approximately 5 hours journey).- Check into a budget homestay or guesthouse near the backwaters.- Enjoy a sunset boat ride through the backwaters and take in the scenic beauty of the area.............Day 4: Alleppey- Spend the day exploring the backwaters on a rented bicycle or by foot.- Visit the Alleppey beach and relax for a few hours.- Try some local seafood at a nearby restaurant.............Day 5: Departure- Take an early morning bus or shared taxi back to Kochi.- Spend the day exploring more of Kochi if time permits.- Depart from Kochi by evening.Budget breakdown:  - Accommodation: 4 nights (3 in budget hotels/guesthouses and 1 in a homestay) - approx. 6,000 INR  - Transportation: Bus and shared taxis - approx. 3,000 INR  - Food: approx. 3,000 INR  - Sightseeing and activities: approx. 3,000 INR...........Please note that this is just a rough estimate, and actual costs may vary depending on your preferences and travel style Its always a good idea to do your own research and plan accordingly."
+        }
+        if( cunt=="select")
+        {
+        capital="Please select any Place you want...";
+        }
+        document.getElementById("capt").innerHTML=capital;
+        }
+        </script>
+</head>
+<body>
+    <form name="frm1">
+    <br/>
+    <center>
+    Select a Place : <select name="country" onchange="capital()">
+    <option value="select">--SELECT--</option>
+    <option value="GOA">GOA</option>
+    <option value="MUMBAI">MUMBAI</option>
+    <option value="KASHMIR">KASHMIR</option>
+    <option value="KERALA">KERALA</option>
+    </select>
+    <br/>
+    <br/>
+    <font color="green" size="7"> PLAN FOR YOUR TRIP IS :</font> <p id="capt"></p>
+    </center>
+    </form>
+    </body>
+
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Trip Planner</title>
+  <style>
+    body {
+      background-image: url('https://images.pexels.com/photos/2305761/pexels-photo-2305761.jpeg?auto=compress&cs=tinysrgb&w=600');
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+    }
+    
+    h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .form-group input[type="text"],
+    .form-group input[type="number"],
+    .form-group select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .form-group select {
+      height: 35px;
+    }
+    
+    .form-group button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    .plan {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    .plan h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    
+    .plan p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Trip Planner</h2>
+    <form id="planner-form">
+      <div class="form-group">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+      </div>
+      <div class="form-group">
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" name="budget" required>
+      </div>
+      <div class="form-group">
+        <label for="duration">Duration (in days):</label>
+        <input type="number" id="duration" name="duration" required>
+      </div>
+      <div class="form-group">
+        <label for="activities">Preferred Activities:</label>
+        <select id="activities" name="activities" multiple required>
+          <option value="sightseeing">Sightseeing</option>
+          <option value="adventure">Adventure</option>
+          <option value="relaxation">Relaxation</option>
+          <option value="cultural">Cultural</option>
+          <option value="food">Food</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <button type="submit">Generate Plan</button>
+      </div>
+    </form>
+    <div id="plan" class="plan" style="display: none;"></div>
+  </div>
+  
+  <script>
+    // Get the form element
+    const plannerForm = document.getElementById('planner')
